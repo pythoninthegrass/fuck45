@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mvp
+  name: fuck45
   labels:
-    app: mvp
+    app: fuck45
 spec:
   selector:
     matchLabels:
-      app: mvp
+      app: fuck45
   template:
     metadata:
       labels:
-        app: mvp
+        app: fuck45
     spec:
       containers:
-        - name: mvp
-          image: mvp:latest
+        - name: fuck45
+          image: fuck45:latest
           ports:
             - containerPort: 8000
