@@ -11,10 +11,11 @@ python = ">=3.11,<3.13"
 argcomplete = "^3.4.0"
 eliot = "^1.15.0"
 fastapi = "^0.111.0"
+gunicorn = "^22.0.0"
 psycopg2-binary = "^2.9.9"
 python-decouple = "^3.8"
 sqlalchemy = "^2.0.31"
-uvicorn = "^0.30.1"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
 
 [tool.poetry.group.dev.dependencies]
 coverage = "^7.6.0"
