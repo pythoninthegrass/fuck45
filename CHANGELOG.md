@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.1](https://github.com/pythoninthegrass/fuck45/compare/v0.1.0...v0.1.1) (2024-07-12)
+
+
+### Bug Fixes
+
+* imports, index rendering ([2462cfd](https://github.com/pythoninthegrass/fuck45/commit/2462cfdec4a08d16775a89b2b1e00975b17bd9a2))
+
+
+### Documentation
+
+* update readme ([0e30033](https://github.com/pythoninthegrass/fuck45/commit/0e30033a50b2c3f98b9f743fd904d2ad8ec53235))
+
 ## [0.1.0](https://github.com/pythoninthegrass/fuck45/compare/v0.1.0...v0.1.0) (2024-07-12)
 
 
