@@ -1,134 +1,6 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "ansible-lint@latest": {
-      "last_modified": "2024-04-19T17:36:04-04:00",
-      "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#ansible-lint",
-      "source": "devbox-search",
-      "version": "24.2.2",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/plygdwiy9cgkhlj68yfcximwb36qdhlq-ansible-lint-24.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/897pv9mpkzz3i0jmhdqn5rjgkzmirs1h-ansible-lint-24.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/plygdwiy9cgkhlj68yfcximwb36qdhlq-ansible-lint-24.2.2"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/qzmhsafd8i1gznixnck8i3ac2zfvn9wy-ansible-lint-24.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/z7gpcd6wgp6271mxlm0yw8s9mblm3fj0-ansible-lint-24.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/qzmhsafd8i1gznixnck8i3ac2zfvn9wy-ansible-lint-24.2.2"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/msc0hhkda8737sc6amfipkdxy04vrsg9-ansible-lint-24.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/grksghwx5kfgbap5bh2q20hjjf6b4zvr-ansible-lint-24.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/msc0hhkda8737sc6amfipkdxy04vrsg9-ansible-lint-24.2.2"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/n0i9ph40gq4mxn6gyc04bhrfd1wsmpws-ansible-lint-24.2.2",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/3sc68zvbv0mdny6mlzs7qah121j931v2-ansible-lint-24.2.2-dist"
-            }
-          ],
-          "store_path": "/nix/store/n0i9ph40gq4mxn6gyc04bhrfd1wsmpws-ansible-lint-24.2.2"
-        }
-      }
-    },
-    "ansible@latest": {
-      "last_modified": "2024-04-19T17:36:04-04:00",
-      "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#ansible",
-      "source": "devbox-search",
-      "version": "2.16.5",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/8xvj3xnlrhcck6brh48rb6vymsvldzkw-python3.11-ansible-core-2.16.5",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/384mv4035gs65g5h3payzlkx4yn8j9yk-python3.11-ansible-core-2.16.5-dist"
-            }
-          ],
-          "store_path": "/nix/store/8xvj3xnlrhcck6brh48rb6vymsvldzkw-python3.11-ansible-core-2.16.5"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/4glvhxz4006rjbv2p2f447s2pbhakaq6-python3.11-ansible-core-2.16.5",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/fi77s4dz255kwqa47s22faliw4q78csi-python3.11-ansible-core-2.16.5-dist"
-            }
-          ],
-          "store_path": "/nix/store/4glvhxz4006rjbv2p2f447s2pbhakaq6-python3.11-ansible-core-2.16.5"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/r0l3l5z08nxzfhgpp545ip67bc6vawfc-python3.11-ansible-core-2.16.5",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/99pqnqq2b6g5m4mnawjcwa6ay9a06and-python3.11-ansible-core-2.16.5-dist"
-            }
-          ],
-          "store_path": "/nix/store/r0l3l5z08nxzfhgpp545ip67bc6vawfc-python3.11-ansible-core-2.16.5"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/3gsj6jky3sfpn893pwjdk2g8xa6x2ppp-python3.11-ansible-core-2.16.5",
-              "default": true
-            },
-            {
-              "name": "dist",
-              "path": "/nix/store/y6b5zp0k4gs5dydda12vq3s8xaaivpwb-python3.11-ansible-core-2.16.5-dist"
-            }
-          ],
-          "store_path": "/nix/store/3gsj6jky3sfpn893pwjdk2g8xa6x2ppp-python3.11-ansible-core-2.16.5"
-        }
-      }
-    },
     "asdf-vm@latest": {
       "last_modified": "2024-04-19T17:36:04-04:00",
       "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#asdf-vm",
@@ -174,54 +46,6 @@
             }
           ],
           "store_path": "/nix/store/x2dnhqhc50hgpyfpcr7ymj5lahl9bra8-asdf-vm-0.14.0"
-        }
-      }
-    },
-    "docker@latest": {
-      "last_modified": "2024-04-19T17:36:04-04:00",
-      "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#docker",
-      "source": "devbox-search",
-      "version": "24.0.5",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/rq15kjwa4gjq9h8scbchxi9nyvrg44ab-docker-24.0.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/rq15kjwa4gjq9h8scbchxi9nyvrg44ab-docker-24.0.5"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/v6k3jm8fkp4rmwvxpbchb62p4kmn8bnw-docker-24.0.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/v6k3jm8fkp4rmwvxpbchb62p4kmn8bnw-docker-24.0.5"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/ww9ncrcjwl2zvpfvz88z01yhasv3598k-docker-24.0.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/ww9ncrcjwl2zvpfvz88z01yhasv3598k-docker-24.0.5"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/1s9bdzai4csrc4sb1jy1h9jbwba79gd7-docker-24.0.5",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/1s9bdzai4csrc4sb1jy1h9jbwba79gd7-docker-24.0.5"
         }
       }
     },
@@ -569,68 +393,68 @@
         }
       }
     },
-    "nodejs@21.4.0": {
-      "last_modified": "2023-12-17T21:58:18-05:00",
+    "nodejs@latest": {
+      "last_modified": "2024-07-07T16:08:25Z",
       "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/ca16221251951e9c6261a1a2bb4f9389038d3632#nodejs_21",
+      "resolved": "github:NixOS/nixpkgs/ab82a9612aa45284d4adf69ee81871a389669a9e#nodejs_22",
       "source": "devbox-search",
-      "version": "21.4.0",
+      "version": "22.3.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/m9dw902f3qmlyd1k79fnkpdpbbgmiq5p-nodejs-21.4.0",
+              "path": "/nix/store/xfiwgna8wavxj8wzfn5ihp9kxdvcrphq-nodejs-22.3.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/rsb5szdpknl5i4y8ws1fxyxsvcd7vb5n-nodejs-21.4.0-libv8"
+              "path": "/nix/store/hn3z99jhkx7llshh1v0qmlfmnis144k1-nodejs-22.3.0-libv8"
             }
           ],
-          "store_path": "/nix/store/m9dw902f3qmlyd1k79fnkpdpbbgmiq5p-nodejs-21.4.0"
+          "store_path": "/nix/store/xfiwgna8wavxj8wzfn5ihp9kxdvcrphq-nodejs-22.3.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/jcyq7h968yazllrvf432lrx5qfibdr66-nodejs-21.4.0",
+              "path": "/nix/store/q7cgrvb6clq0pdp5hlwmq2lldzkl3fmj-nodejs-22.3.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/svfx1lqy2484jcryks6m30cgzxv3ji55-nodejs-21.4.0-libv8"
+              "path": "/nix/store/5df5695winsxzf80q6z0m35zy3p60yw1-nodejs-22.3.0-libv8"
             }
           ],
-          "store_path": "/nix/store/jcyq7h968yazllrvf432lrx5qfibdr66-nodejs-21.4.0"
+          "store_path": "/nix/store/q7cgrvb6clq0pdp5hlwmq2lldzkl3fmj-nodejs-22.3.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/wri9fd1rhd708z3k48vp60kx39l8nl04-nodejs-21.4.0",
+              "path": "/nix/store/3cqbw1xcmc0xml8s3ys7jviaxvqyjldy-nodejs-22.3.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/94i3fiixjcjx3fxw2mcq4rmd9hyf0hvg-nodejs-21.4.0-libv8"
+              "path": "/nix/store/zk7izr97gl525arvyi4mfwxnhx5wl7hx-nodejs-22.3.0-libv8"
             }
           ],
-          "store_path": "/nix/store/wri9fd1rhd708z3k48vp60kx39l8nl04-nodejs-21.4.0"
+          "store_path": "/nix/store/3cqbw1xcmc0xml8s3ys7jviaxvqyjldy-nodejs-22.3.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/p3mbsd6dn6qxy7s7svmahb99m95cwk39-nodejs-21.4.0",
+              "path": "/nix/store/bmvx7ww7qfksjqsckmivkg3mqvjscfh8-nodejs-22.3.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/hbrvfj1wmg9vqg8lnq2l11k53jhh84aw-nodejs-21.4.0-libv8"
+              "path": "/nix/store/w28gijyq24mmk1676gpbxw2xrkysxx1i-nodejs-22.3.0-libv8"
             }
           ],
-          "store_path": "/nix/store/p3mbsd6dn6qxy7s7svmahb99m95cwk39-nodejs-21.4.0"
+          "store_path": "/nix/store/bmvx7ww7qfksjqsckmivkg3mqvjscfh8-nodejs-22.3.0"
         }
       }
     },
