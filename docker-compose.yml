@@ -1,20 +1,41 @@
-version: "3"
-
 services:
-  app:
-    container_name: mvp-app
-    hostname: mvp
-    platform: linux/amd64             # linux/amd64 / linux/arm64/v8
-    tty: true                         # false for `entrypoint` in Dockerfile
-    stdin_open: true                  # false for `entrypoint` in Dockerfile
+  web:
+    container_name: fuck45-web
     build:
-      context: ./
+      context: .
       dockerfile: ./Dockerfile
-      args:
-        - DEBIAN_FRONTEND=noninteractive
+    hostname: fuck45
+    platform: linux/arm64/v8  # linux/amd64 / linux/arm64/v8
+    tty: false                 # false for `entrypoint` in Dockerfile
+    stdin_open: false          # false for `entrypoint` in Dockerfile
     ports:
       - "8000:8000/tcp"
-      - "8080:8080/tcp"
     volumes:
-      - ./:/app
+      - .:/app
     working_dir: /app
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # TODO: don't hardcode creds
+  db:
+    image: postgres:latest
+    container_name: fuck45-db
+    hostname: db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=supersecurepassword
+    ports:
+      - "5432:5432/tcp"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./bin/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  postgres_data:

@@ -5,7 +5,7 @@
   // "build": {
   //   "dockerfile": "../Dockerfile"
   // }
-  "service": "app",
+  "service": "web",
   "workspaceFolder": "/app",
   "dockerComposeFile": "../docker-compose.yml",
   "overrideCommand": true,

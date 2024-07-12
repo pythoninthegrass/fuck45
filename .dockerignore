@@ -1,36 +1,91 @@
-**/__pycache__
-**/.classpath
-**/.dockerignore
-**/.DS_Store
-**/.editorconfig
-**/.env
-**/.git
-**/.github
-**/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
-**/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/*.py#
-**/*.py~
-**/*.pyc
-**/azds.yaml
-**/bin
-**/charts
-**/compose*
-**/csv
-**/django
-**/docker-compose*
-**/Dockerfile*
-**/img
-**/node_modules
-**/npm-debug.log
-**/obj
-**/README.md
-**/secrets.dev.yaml
-**/terraform
-**/values.dev.yaml
+# ETC
+.devcontainer
+.pytest_cache
+.tool-versions
+.vscode
+*.md
+
+# INCLUDE
+!poetry.lock
+!pyproject.toml
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose.yml
+.docker
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*.py[cod]
+*/*.py[cod]
+*/*/*.py[cod]
+*/*/*/*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Logs
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Virtual environment
+.env/
+.venv/
+venv/
+
+# Python mode for VIM
+.ropeproject
+*/.ropeproject
+*/*/.ropeproject
+*/*/*/.ropeproject
+
+# Vim swap files
+*.swp
+*/*.swp
+*/*/*.swp
+*/*/*/*.swp
