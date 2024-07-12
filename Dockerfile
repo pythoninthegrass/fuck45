@@ -36,7 +36,6 @@ WORKDIR /frontend
 
 COPY frontend/package*.json .
 
-# Use BuildKit mount cache for npm install
 RUN --mount=type=cache,target=/root/.npm \
     npm install
 

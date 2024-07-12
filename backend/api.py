@@ -1,5 +1,5 @@
+import models, schemas
 from sqlalchemy.orm import Session
-from . import models, schemas
 
 
 def get_articles(db: Session, skip: int = 0, limit: int = 10):
